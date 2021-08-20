@@ -4,7 +4,7 @@ Projeto do curso de Desenvolvimento de Sistemas do SENAI Informática. A SP Medi
 
 # Features
   - Gestão da clínica automatizada
-  - Marcar consultas com fácil acesso
+  - Marcar consultas com facilidade e praticidade
 
 # Authors
 * **Luiz Felipe Vera Cruz**: @luizfelipeveracruz (https://github.com/luizfelipeveracruz)

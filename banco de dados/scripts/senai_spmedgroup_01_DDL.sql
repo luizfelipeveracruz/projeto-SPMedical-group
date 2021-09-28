@@ -1,7 +1,7 @@
-CREATE DATABASE MedicalGroup
+CREATE DATABASE MedicalGroup_LF
 GO
 
-USE MedicalGroup 
+USE MedicalGroup_LF
 GO 
 
 CREATE TABLE tipoUsuario(
@@ -39,8 +39,11 @@ CREATE TABLE usuario(
   idClinica INT FOREIGN KEY REFERENCES CLINICA (idClinica),
   idUsuario INT FOREIGN KEY REFERENCES USUARIO (idUsuario),
   idEspecializacao INT FOREIGN KEY REFERENCES ESPECIALIZACAO (idEspecializacao),
+  nomeMedico VARCHAR (50) NOT NULL,
+  CRM CHAR(7) UNIQUE NOT NULL
  );
  GO
+
 
  CREATE  TABLE paciente(
  idPaciente INT  PRIMARY KEY IDENTITY,
@@ -54,13 +57,11 @@ CREATE TABLE usuario(
  );
  GO
 
- SELECT *FROM paciente
+ SELECT *FROM situacao
 
  CREATE TABLE situacao(
  idSituacao INT PRIMARY KEY IDENTITY, 
- situacao VARCHAR (80) NOT NULL,
- dataConsulta DATE NOT NULL, 
- descricao VARCHAR (600) DEFAULT ('Não tem descrição de sintomas')
+ situacao VARCHAR (30) NOT NULL
  );
  GO
 
@@ -68,6 +69,8 @@ CREATE TABLE usuario(
  idConsulta INT PRIMARY KEY IDENTITY,
  idPaciente INT FOREIGN KEY REFERENCES PACIENTE (idPaciente),
  idMedico INT FOREIGN KEY REFERENCES MEDICO (idMedico),
- idSituacao INT FOREIGN KEY REFERENCES SITUACAO (idSituacao)
+ idSituacao INT FOREIGN KEY REFERENCES SITUACAO (idSituacao),
+ dataConsulta DATE NOT NULL, 
+ descricao VARCHAR (600) DEFAULT ('Não tem descrição de sintomas')
  );
  GO

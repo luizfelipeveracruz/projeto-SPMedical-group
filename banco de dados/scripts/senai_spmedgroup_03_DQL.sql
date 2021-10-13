@@ -13,7 +13,7 @@ SELECT * FROM consulta;
 GO
 
 --Mostrar Consulta com todas as informações necessárias:
-SELECT nomePaciente 'Paciente', nomeMedico 'Médico', FORMAT(dataConsulta, 'dd/MM/yyyy hh.mm') 'Data da Consulta', situacao, nomeFantasia 'Clinica'
+SELECT nomePaciente 'Paciente', nomeMedico 'Médico', FORMAT(dataConsulta, 'dd/MM/yyyy hh.mm') 'Data da Consulta', situacao 'Status da Consulta', nomeFantasia 'Clinica'
 FROM consulta
 INNER JOIN medico
 ON medico.idMedico = consulta.idMedico

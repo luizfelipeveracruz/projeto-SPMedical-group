@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #36F4D2;
+}  
+
+.QuadradoUm{
+    height: 650px;
+    width: 951px;
+    background-color: #B1FEAA;
+}

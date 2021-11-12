@@ -8,10 +8,35 @@ body{
     display: flex;
     justify-content: center;
     background: #36F4D2;
+    
 }  
 
 .QuadradoUm{
     height: 650px;
     width: 951px;
+    justify-content: center;
     background-color: #B1FEAA;
+    box-shadow: 0 0 1em black;
+    border: groove 1em green;
+    border-radius: 2em;
+}
+
+.container-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 230px; */
+    height: 15%;
+    /* background-color: #45C1C1; */
+    border-radius: 50px;
+
+}
+
+.Logo_login{
+    height: 100%;
+}
+
+.logo_img{
+    height: 100%;
 }

@@ -8,11 +8,26 @@
     <link rel="stylesheet" href="../css/Login.css">
 </head>
 <body>
-    <img src="../img/spmedicallogo.png" class="LogoSpMedical">
+    <!-- <img src="../img/spmedicallogo.png" class="LogoSpMedical"> -->
 
     <main>
+        <div class="container-left">
+            <a href="Main.html" class="Logo_login">
+            <img src="../img/spmedicallogo.png" class="logo_img"> </a>
+        </div>
+
         <div class="QuadradoUm">
-            
+            <div class="container-right">
+                <h1>Login</h1>
+                <form class="input-login">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" name="email" class="input-content" id="e-mail" placeholder="E-Mail">
+                    <i class="fas fa-key"></i>
+                    <input type="password" name="senha" 
+                    class="input-content" id="senha" placeholder="Senha">
+                    <button type="submit" class="btn-login">Logar</button>
+                </form>
+            </div>
         </div>
     </main>
 

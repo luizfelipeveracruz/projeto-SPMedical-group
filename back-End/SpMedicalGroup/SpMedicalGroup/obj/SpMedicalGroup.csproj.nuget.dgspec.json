@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luiz.cruz\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj": {}
+    "C:\\Users\\39517928840\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luiz.cruz\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj": {
+    "C:\\Users\\39517928840\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz.cruz\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj",
+        "projectUniqueName": "C:\\Users\\39517928840\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj",
         "projectName": "SpMedicalGroup",
-        "projectPath": "C:\\Users\\luiz.cruz\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj",
-        "packagesPath": "C:\\Users\\luiz.cruz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz.cruz\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\obj\\",
+        "projectPath": "C:\\Users\\39517928840\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\SpMedicalGroup.csproj",
+        "packagesPath": "C:\\Users\\39517928840\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\39517928840\\Desktop\\projeto-SPMedical-group\\back-End\\SpMedicalGroup\\SpMedicalGroup\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luiz.cruz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\39517928840\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

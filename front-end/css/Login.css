@@ -40,3 +40,8 @@ body{
 .logo_img{
     height: 100%;
 }
+
+.container-right{
+    justify-content: center;
+
+}

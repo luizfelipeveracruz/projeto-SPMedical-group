@@ -21,6 +21,38 @@ body{
     border-radius: 2em;
 }
 
+.QuadradoUm h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin-bottom: 25px;
+}
+
+
+
+.input-login{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-right{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .container-left{
     display: flex;
     justify-content: center;

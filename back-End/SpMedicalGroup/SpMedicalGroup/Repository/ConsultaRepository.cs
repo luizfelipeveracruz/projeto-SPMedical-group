@@ -1,4 +1,5 @@
-﻿using SpMedicalGroup.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using SpMedicalGroup.Context;
 using SpMedicalGroup.Domains;
 using SpMedicalGroup.Interfaces;
 using System;
@@ -93,14 +94,23 @@ namespace SpMedicalGroup.Repository
             ctx.SaveChanges();
         }
 
-        public List<Consultum> ListarMinhas(int IdUsuario)
+        public List<Consultum> ListarMinhasPaciente(int IdUsuario)
         {
-            throw new NotImplementedException();
+            return ctx.Consulta
+               .Include(c => c.IdPacienteNavigation).Include(c => c.IdSituacaoNavigation).Include(c => c.IdMedicoNavigation).Where(c => c.IdPacienteNavigation.IdUsuario == IdUsuario).ToList();
+
+        }
+
+        public List<Consultum> ListarMinhasMedico(int IdUsuario)
+        {
+            return ctx.Consulta
+               .Include(c => c.IdPacienteNavigation).Include(c => c.IdSituacaoNavigation).Include(c => c.IdMedicoNavigation).Where(c => c.IdMedicoNavigation.IdUsuario == IdUsuario).ToList();
+
         }
 
         public List<Consultum> ListarTodas()
         {
-            throw new NotImplementedException();
+            return ctx.Consulta.ToList();
         }
     }
 }

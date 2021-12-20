@@ -33,7 +33,18 @@ namespace SpMedicalGroup
                 c.IncludeXmlComments(xmlPath);
 
             });
-            
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorPolicy",
+                                builder =>
+                                {
+                                    builder.WithOrigins("*")
+                                    .AllowAnyHeader()
+                                    .AllowAnyMethod();
+                                });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +55,8 @@ namespace SpMedicalGroup
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("CorPolicy");
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c => {
@@ -52,6 +65,8 @@ namespace SpMedicalGroup
             });
 
             app.UseRouting();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

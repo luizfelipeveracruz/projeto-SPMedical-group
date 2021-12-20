@@ -132,3 +132,5 @@ C:\Users\luiz.cruz\Desktop\projeto-SPMedical-group\back-End\SpMedicalGroup\SpMed
 C:\Users\luiz.cruz\Desktop\projeto-SPMedical-group\back-End\SpMedicalGroup\SpMedicalGroup\obj\Debug\net5.0\ref\SpMedicalGroup.dll
 C:\Users\luiz.cruz\Desktop\projeto-SPMedical-group\back-End\SpMedicalGroup\SpMedicalGroup\obj\Debug\net5.0\SpMedicalGroup.pdb
 C:\Users\luiz.cruz\Desktop\projeto-SPMedical-group\back-End\SpMedicalGroup\SpMedicalGroup\obj\Debug\net5.0\SpMedicalGroup.genruntimeconfig.cache
+C:\Users\luiz.cruz\Desktop\projeto-SPMedical-group\back-End\SpMedicalGroup\SpMedicalGroup\bin\Debug\net5.0\SpMedicalGroup.xml
+C:\Users\luiz.cruz\Desktop\projeto-SPMedical-group\back-End\SpMedicalGroup\SpMedicalGroup\obj\Debug\net5.0\SpMedicalGroup.xml

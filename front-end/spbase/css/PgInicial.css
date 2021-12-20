@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.LogoSpMedical {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.LogoSpMedical{
+    width: 125px;
+    height: 120px;
+}
+
+.header{
+    border-bottom: 3px solid #81FFFF;
+    height: 50px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.comeco nav {
+    float: right;
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.comeco{
+    background: #ffff;
+    width: 45%;
+    /* height: 35px; */
+    top: 0;
+    /* position: fixed; */
+}
+
+.comeco h1 {
+    display: none;
+}
+
+.comeco ul {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.comeco li {
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+
+.comeco a {
+    font-size: 10pt;
+    color: #81FFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;	
+    align-items: center;
+    width: 214px;
+}
+
+.link-register{
+    height: 28px;
+    width: 104px;
+    border-radius: 3px;
+    border: solid 3px #81FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.login-a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-a{
+    text-decoration: none;
+}
+
+.section{
+    background-image: url(../img/medico.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 98.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.alinhamento{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quadradinho{
+    background-color: #36F4D2;
+    width: 30%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: 0 0 1em black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
+
+.butao{
+    height: 28px;
+    width: 104px;
+    border-radius: 3px;
+    border: solid 3px #ffffff;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #18A0FB;
+    margin-bottom: 10px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.377);    
+}
+
+.consulta{
+    height: 65%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+

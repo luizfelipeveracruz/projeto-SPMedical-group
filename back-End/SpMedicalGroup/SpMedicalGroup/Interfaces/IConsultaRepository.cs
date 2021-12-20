@@ -15,6 +15,20 @@ namespace SpMedicalGroup.Interfaces
         List<Consultum> ListarTodas();
 
         /// <summary>
+        /// Lista todos os eventos de um determinado usuário
+        /// </summary>
+        /// <param name="IdUsuario">Id do usuário que participa dos eventos</param>
+        /// <returns>Uma lista de presenças com os dados dos eventos</returns>
+        List<Consultum> ListarMinhasPaciente(int IdUsuario);
+
+        /// <summary>
+        /// Lista todos os eventos de um determinado usuário
+        /// </summary>
+        /// <param name="IdUsuario">Id do usuário que participa dos eventos</param>
+        /// <returns>Uma lista de presenças com os dados dos eventos</returns>
+        List<Consultum> ListarMinhasMedico(int IdUsuario);
+
+        /// <summary>
         /// Buscar uma consulta pelo id
         /// </summary>
         /// <param name="IdConsulta">id da consulta a ser procurado</param>
@@ -40,12 +54,7 @@ namespace SpMedicalGroup.Interfaces
         /// <param name="IdConsulta">id da consulta a ser excluida</param>
         void Deletar(int IdConsulta);
 
-        /// <summary>
-        /// Lista todos os eventos de um determinado usuário
-        /// </summary>
-        /// <param name="IdUsuario">Id do usuário que participa dos eventos</param>
-        /// <returns>Uma lista de presenças com os dados dos eventos</returns>
-        List<Consultum> ListarMinhas(int IdUsuario);
+
 
 
         /// <summary>
